@@ -5115,7 +5115,7 @@
     "@uniswap/sdk-core" "^3.0.1"
     "@uniswap/swap-router-contracts" "1.1.0"
     "@uniswap/v2-sdk" "^3.0.1"
-    "@uniswap/v3-sdk" "^3.7.1"
+    "@candlelabs/v3-sdk" "^3.7.1"
 
 "@uniswap/sdk-core@^3.0.0-alpha.3", "@uniswap/sdk-core@^3.0.1":
   version "3.0.1"
@@ -5153,7 +5153,7 @@
     "@uniswap/v2-periphery" "^1.1.0-beta.0"
     "@uniswap/v2-sdk" "^3.0.1"
     "@uniswap/v3-periphery" "^1.1.1"
-    "@uniswap/v3-sdk" "^3.7.0"
+    "@candlelabs/v3-sdk" "^3.7.0"
     async-retry "^1.3.1"
     await-timeout "^1.1.1"
     axios "^0.21.1"
@@ -5234,9 +5234,9 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-sdk@^3.7.0", "@uniswap/v3-sdk@^3.7.1":
+"@candlelabs/v3-sdk@^3.7.0", "@candlelabs/v3-sdk@^3.7.1":
   version "3.7.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-sdk/-/v3-sdk-3.7.1.tgz#8a3740ff6302d8069e7ce4a38b7588721398048b"
+  resolved "https://registry.yarnpkg.com/@candlelabs/v3-sdk/-/v3-sdk-3.7.1.tgz#8a3740ff6302d8069e7ce4a38b7588721398048b"
   integrity sha512-/0FBsrRijfAEOVO0ejCQX36MwaKzjKCaInUA1dNqFyDNZ5dthvv6jUhMADYuNXZnhN6NcSdIj6xhlc/cpgPm9Q==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
