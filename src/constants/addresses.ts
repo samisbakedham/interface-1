@@ -8,7 +8,7 @@ type AddressMap = { [chainId: number]: string }
 
 export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984')
 export const MULTICALL_ADDRESS: AddressMap = {
-  ...constructSameAddressMap('0x1F98415757620B543A52E61c46B32eB19261F984', [
+  ...constructSameAddressMap('0x00b835c03A66c94C7ec46EC0F7d03230A3a49ef6', [
     SupportedChainId.OPTIMISTIC_KOVAN,
     SupportedChainId.OPTIMISM,
     SupportedChainId.POLYGON_MUMBAI,
@@ -20,7 +20,7 @@ export const MULTICALL_ADDRESS: AddressMap = {
 export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V2_FACTORY_ADDRESS)
 
 export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D')
-export const V3_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0xE592427A0AEce92De3Edee1F18E0157C05861564', [
+export const V3_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0xF73A904c14cB508679BBBF21c6694813402eCF7f', [
   SupportedChainId.OPTIMISM,
   SupportedChainId.OPTIMISTIC_KOVAN,
   SupportedChainId.ARBITRUM_ONE,
@@ -28,7 +28,7 @@ export const V3_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0xE592427A
   SupportedChainId.POLYGON,
   SupportedChainId.POLYGON_MUMBAI,
 ])
-export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap('0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45', [
+export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap('0x58158636a6AB3E871448e516e0708013b852EDc6', [
   SupportedChainId.OPTIMISM,
   SupportedChainId.OPTIMISTIC_KOVAN,
   SupportedChainId.ARBITRUM_ONE,
@@ -72,7 +72,7 @@ export const V3_CORE_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V3_
   SupportedChainId.POLYGON_MUMBAI,
   SupportedChainId.POLYGON,
 ])
-export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6', [
+export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0x13C294891EEFC86c13227ac22b7325E22d33c36F', [
   SupportedChainId.OPTIMISM,
   SupportedChainId.OPTIMISTIC_KOVAN,
   SupportedChainId.ARBITRUM_ONE,
@@ -81,7 +81,7 @@ export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xb27308f9F
   SupportedChainId.POLYGON,
 ])
 export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = constructSameAddressMap(
-  '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
+  '0xA8E7C4e72F4E89A8811745751f1939B629af334c',
   [
     SupportedChainId.OPTIMISM,
     SupportedChainId.OPTIMISTIC_KOVAN,
@@ -101,7 +101,7 @@ export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
   [SupportedChainId.MAINNET]: '0x65770b5283117639760beA3F867b69b3697a91dd',
 }
 
-export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap('0xA5644E29708357803b5A882D272c41cC0dF92B34', [
+export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap('0x5bc56A90D16f1FF690d7BEb5a51d067FB5c4aCB5', [
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_RINKEBY,
   SupportedChainId.POLYGON_MUMBAI,
@@ -109,6 +109,6 @@ export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap('0xA564
 ])
 
 export const TICK_LENS_ADDRESSES: AddressMap = {
-  [SupportedChainId.ARBITRUM_ONE]: '0xbfd8137f7d1516D3ea5cA83523914859ec47F573',
+  [SupportedChainId.ARBITRUM_ONE]: '0x9a81b8C1173D2D9BCAE94FfbA5947b24eA09ebB9',
   [SupportedChainId.ARBITRUM_RINKEBY]: '0xbfd8137f7d1516D3ea5cA83523914859ec47F573',
 }
