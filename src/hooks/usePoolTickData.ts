@@ -1,7 +1,7 @@
+import { FeeAmount, nearestUsableTick, Pool, TICK_SPACINGS, tickToPrice } from '@candlelabs/v3-sdk'
 import { skipToken } from '@reduxjs/toolkit/query/react'
 import { Currency } from '@uniswap/sdk-core'
 import { ChainId } from '@uniswap/smart-order-router'
-import { FeeAmount, nearestUsableTick, Pool, TICK_SPACINGS, tickToPrice } from '@candlelabs/v3-sdk'
 import { ZERO_ADDRESS } from 'constants/misc'
 import JSBI from 'jsbi'
 import { useSingleContractMultipleData } from 'lib/hooks/multicall'

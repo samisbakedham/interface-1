@@ -1,5 +1,3 @@
-import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Price, Rounding, Token } from '@uniswap/sdk-core'
 import {
   encodeSqrtRatioX96,
   FeeAmount,
@@ -11,6 +9,8 @@ import {
   TickMath,
   tickToPrice,
 } from '@candlelabs/v3-sdk'
+import { Trans } from '@lingui/macro'
+import { Currency, CurrencyAmount, Price, Rounding, Token } from '@uniswap/sdk-core'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { usePool } from 'hooks/usePools'
 import JSBI from 'jsbi'

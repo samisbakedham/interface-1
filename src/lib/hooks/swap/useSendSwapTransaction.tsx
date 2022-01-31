@@ -1,3 +1,4 @@
+import { Trade as V3Trade } from '@candlelabs/v3-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { TransactionResponse, Web3Provider } from '@ethersproject/providers'
 // eslint-disable-next-line no-restricted-imports
@@ -5,7 +6,6 @@ import { t, Trans } from '@lingui/macro'
 import { Trade } from '@uniswap/router-sdk'
 import { Currency, TradeType } from '@uniswap/sdk-core'
 import { Trade as V2Trade } from '@uniswap/v2-sdk'
-import { Trade as V3Trade } from '@candlelabs/v3-sdk'
 import { useMemo } from 'react'
 import { calculateGasMargin } from 'utils/calculateGasMargin'
 import isZero from 'utils/isZero'

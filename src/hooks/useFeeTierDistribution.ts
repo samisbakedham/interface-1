@@ -1,6 +1,6 @@
+import { FeeAmount } from '@candlelabs/v3-sdk'
 import { skipToken } from '@reduxjs/toolkit/query/react'
 import { Currency, Token } from '@uniswap/sdk-core'
-import { FeeAmount } from '@candlelabs/v3-sdk'
 import useBlockNumber from 'lib/hooks/useBlockNumber'
 import ms from 'ms.macro'
 import { useMemo } from 'react'
