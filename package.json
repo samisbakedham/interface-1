@@ -167,7 +167,7 @@
     "@ethersproject/strings": "^5.4.0",
     "@ethersproject/units": "^5.4.0",
     "@ethersproject/wallet": "^5.4.0",
-    "@fontsource/ibm-plex-mono": "^4.5.1",
+    "@fontsource/ibm-plex-mono": "^4.5.3",
     "@fontsource/inter": "^4.5.1",
     "@lingui/core": "^3.9.0",
     "@lingui/macro": "^3.9.0",
