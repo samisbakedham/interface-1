@@ -2040,10 +2040,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-mono/-/ibm-plex-mono-4.5.2.tgz#3bb3af4454abaea38dd6dc61ba0e8875b7256f69"
   integrity sha512-1n+mymSnxZBGDYIxN7fhHRNMcHU/oENVp0qNshU+zbk/SGgZksrjobkjTi49kY30A2jWa/pGCY9i6ADb+VlVUw==
 
-"@fontsource/inter@^4.5.1":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.2.tgz#f21a1b39e9fc40fd7f315f37687ad6f6f040528a"
-  integrity sha512-4LLfZYr5dRsobtC9JNkATL5OwOqrxs2tF29eNljjogxWXm4tlHxRo4dgOFTlWxQOxcj5Zv7dM8IMiSoOqMGy3g==
+"@fontsource/inter@^4.5.4":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.5.tgz#d4e52e8a0c84b93abae46efd4c43bd7a7f23907f"
+  integrity sha512-mWnePEroLfaJQWmynipzOVcH6JwT8Jta3+yLsC5Pm/snHBXnOiAOnjBqYjKnvXwJ4eUPt2AaAhyrtwCgWQRGOg==
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
