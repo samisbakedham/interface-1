@@ -2035,10 +2035,10 @@
   resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.6.1.tgz#0c74724ba6e9ea6ad25a391eab60a79eaba4c556"
   integrity sha512-9FqhNjKQWpQ3fGnSOCovHOm+yhhiorKEqYLAfd525jWavunDJcx8rOW6i6ozAh+FbwcYMkL7b+3j4UR/30MpoQ==
 
-"@fontsource/ibm-plex-mono@^4.5.1":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-mono/-/ibm-plex-mono-4.5.2.tgz#3bb3af4454abaea38dd6dc61ba0e8875b7256f69"
-  integrity sha512-1n+mymSnxZBGDYIxN7fhHRNMcHU/oENVp0qNshU+zbk/SGgZksrjobkjTi49kY30A2jWa/pGCY9i6ADb+VlVUw==
+"@fontsource/ibm-plex-mono@^4.5.3":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-mono/-/ibm-plex-mono-4.5.4.tgz#e103b5cf491a02ed29cfba9fffd56513128846db"
+  integrity sha512-+5p7mw1Ue/PMOi8Dmu/BoSQZCCq6sJZRo2vj0kPm/vZ1t3qDHLjLClXz9g/E9BJya9qKkATPQLixyVapwBriig==
 
 "@fontsource/inter@^4.5.1":
   version "4.5.2"
